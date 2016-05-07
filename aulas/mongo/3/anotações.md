@@ -38,7 +38,6 @@
 		NOT OU 	é 	$nor
 			E 	é 	$and
 
-
 				* Sintaxe
 
 					db.collections.find(
@@ -50,6 +49,20 @@
 						},
 						{campos}
 					)
+
+
+	- Operador Exsitencial
+
+			existe 	é 	$exists
+
+				* Sintaxe
+
+					db.collections.find(
+						{
+							campo: {$exists: true}
+						}
+					)
+
 
 
 
