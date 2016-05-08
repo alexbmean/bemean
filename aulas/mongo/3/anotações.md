@@ -22,7 +22,7 @@
 
 			* Sintaxe
 
-				db.collections.find(
+				db.collection.find(
 					{
 						propriedade: {
 							$operador: valor
@@ -40,7 +40,7 @@
 
 				* Sintaxe
 
-					db.collections.find(
+					db.collection.find(
 						{
 							$operador: [
 								{propriedade1: valor1},
@@ -57,7 +57,7 @@
 
 				* Sintaxe
 
-					db.collections.find(
+					db.collection.find(
 						{
 							campo: {$exists: true}
 						}
